@@ -1,3 +1,12 @@
+function extractLanguage(lang){
+
+  let code = lang.split("_");
+
+  console.log(code[0]);
+  return code[0];
+
+}
+
 
 
 
